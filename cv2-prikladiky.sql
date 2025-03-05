@@ -54,10 +54,14 @@ join ZAP_PREDMETY z using (os_cislo)
 where z.CIS_PREDM = 'BI06';
 
 -- 13 - menny zoznam studentov s datumom narodenia
-select
-OS_UDAJE.MENO || ' ' || OS_UDAJE.PRIEZVISKO as cele_meno,
-to_char(to_date(substr(ROD_CISLO, 0, 6), 'YYMMDD'), 'DD.MM.YYYY') as datum_narodenia  -- mesiac moze byt viac ako 50 :((
-from STUDENT join OS_UDAJE using (rod_cislo);
+-- select
+-- OS_UDAJE.MENO || ' ' || OS_UDAJE.PRIEZVISKO as cele_meno,
+-- to_char(to_date(substr(ROD_CISLO, 0, 6), 'YYMMDD'), 'DD.MM.YYYY') as datum_narodenia  -- mesiac moze byt viac ako 50 :((
+-- from STUDENT join OS_UDAJE using (rod_cislo);
+
+select MENO, PRIEZVISKO,
+substr(rod_cislo, 5, 2) || '.' || decode(substr(rod_cislo, 3, 2), 5, '0', 6, 1, substr(rod_cislo, 3, 2)) || '.19' || substr(rod_cislo, 1, 2)
+from OS_UDAJE join STUDENT using (rod_cislo);
 
 -- 14 - pocet kreditov studenta s osobnym cislom 500439 za absolvovane predmety
 select * from STUDENT where os_cislo = 500439; -- ?
