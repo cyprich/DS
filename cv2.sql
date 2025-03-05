@@ -27,21 +27,3 @@ select * from st_odbory
     and st_zameranie not in (select st_zameranie from student);
     -- EXISTS je viacej univerzalnejsi lebo IN nefunguje vzdy, hlavne ked PK je  viac ako z jedneho atributu
     
--- ----------------------------------------------------------------------------
-
--- 1
-select * from student;
-
--- 2
-select meno,priezvisko from os_udaje o join student s using(rod_cislo) where s.rocnik=2;
-
--- 3
-select meno,priezvisko from os_udaje join student using(rod_cislo) where substr(rod_cislo, 1, 2) between '85' and '89';
-
--- 4
-select meno,priezvisko from student join os_udaje using(rod_cislo) where st_skupina like '_P%';
-
--- 5
-select meno,priezvisko from student join os_udaje using(rod_cislo) where st_skupina like '_P%' order by priezvisko;
-
--- 6
