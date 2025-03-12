@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="P_KRAJINA" directorySegmentName="seg_0" id="C5E7E312-CBC9-F40E-72D6-1075209553F9">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="N_KRAJINY" id="36F80C4E-77CE-785C-4711-1AFDE5177CD0">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KRAJINY" id="E8339BC1-A73F-54BB-3557-12E533174DCE">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_KRAJINA_PK" id="E50228EC-1EC6-0115-E363-18807AEDF95E">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

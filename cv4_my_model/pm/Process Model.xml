@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E7E36C31-F758-9B34-30F1-BCBB3455FEAB">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:28:45 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

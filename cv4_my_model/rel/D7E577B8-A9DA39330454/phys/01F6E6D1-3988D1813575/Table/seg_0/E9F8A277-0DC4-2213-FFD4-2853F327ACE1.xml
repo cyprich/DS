@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="P_TYP_PRISPEVKU" directorySegmentName="seg_0" id="E9F8A277-0DC4-2213-FFD4-2853F327ACE1">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ZAKL_VYSKA" id="14D6CF32-062B-9419-4A04-A198B61AF335">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TYPU" id="382F4E96-F11C-59EF-07EB-7CFB742329A3">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POPIS" id="CB6E527E-05F3-5D4D-923C-C032D2DA1A3F">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_TYP_PRISPEVKU_PK" id="847F75AD-8EA9-6EFC-191B-6ED2E8FAEB87">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

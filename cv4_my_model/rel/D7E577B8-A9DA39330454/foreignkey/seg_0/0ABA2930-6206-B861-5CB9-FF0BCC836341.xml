@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0ABA2930-6206-B861-5CB9-FF0BCC836341" containerWithKeyObject="25874EE1-D0FE-715F-34FD-6D743909A595" localFKIndex="BF906CA4-1EDC-3DD9-131C-D97A59658A70" name="P_ODVOD_PLATBA_P_POISTENIE_FK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>46936E2F-1513-DB9E-32CA-6127E5932129</importedID>
+<referredTableLongName>P_POISTENIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A3216F1-CB49-DE1D-1176-D12F5A279754</referredTableID>
+<keyObject>4D342933-0B88-B58F-5A3A-82F8FF8A41B8</keyObject>
+<referredKeyID>4D342933-0B88-B58F-5A3A-82F8FF8A41B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_POISTENCA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

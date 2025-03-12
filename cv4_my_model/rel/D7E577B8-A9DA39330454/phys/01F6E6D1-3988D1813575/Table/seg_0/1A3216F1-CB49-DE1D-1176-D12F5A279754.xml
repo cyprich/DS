@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="P_POISTENIE" directorySegmentName="seg_0" id="1A3216F1-CB49-DE1D-1176-D12F5A279754">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROD_CISLO" id="04C90D34-66A2-0FBC-A08C-88513850FE99">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_POISTENCA" id="13FD06EC-A6C8-72A0-7065-43DB73063855">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAT_DO" id="244F8D23-1061-735A-3A4B-219C4A573EFA">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OSLOBODENY" id="53859E1A-EC90-4274-8878-558A85AB1059">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAT_OD" id="9D08183F-12BD-D154-EF58-0B2B2B8281A0">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PLATITELA" id="BD925AD3-7460-026C-AD51-43868EE6EF48">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_POISTENIE_PK" id="4D342933-0B88-B58F-5A3A-82F8FF8A41B8">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

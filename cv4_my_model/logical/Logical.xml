@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E5F01211-7498-BAD8-2F73-1C09A0D15AC2" mainViewID="1C11617B-1FE3-E345-9413-5371288D3BAA">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:28:45 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

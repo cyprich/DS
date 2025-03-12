@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD4CF6BC-9A5D-C6C2-5473-E43225DE3F61" name="P_PLATITEL">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:34:15 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLATITELA" id="46E8F2AE-84A0-0A7B-049E-AD2C0EBF02DA">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:35:06 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B372984F-883A-ED60-0E65-E07040171E93" name="P_PLATITEL_PK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:35:06 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E8F2AE-84A0-0A7B-049E-AD2C0EBF02DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

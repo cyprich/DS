@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25874EE1-D0FE-715F-34FD-6D743909A595" name="P_ODVOD_PLATBA">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>FD444C70-AE90-F31F-5759-294D73A99184</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIS_PLATBY" id="3E5BA9DD-B707-9ECD-489B-0179CBA0B494">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>7985C01E-76B0-BDE2-134F-19BA8594FC8C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POISTENCA" id="289A4CE3-99D5-D7C8-1EEB-7D0F40F9F661">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>FE08D7DE-F3CE-76B6-78D5-53C7E96BE9AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ABA2930-6206-B861-5CB9-FF0BCC836341" referredColumn="13FD06EC-A6C8-72A0-7065-43DB73063855"/>
+</associations>
+</Column>
+<Column name="SUMA" id="C6ABE91B-1B4D-5E14-D009-8CF3408D09A2">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>115A88A7-03C2-4ED7-3D9F-5DD8FC273C7D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="suma &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_PLATBY" id="16399DB2-7DF9-69DB-D5DC-A9B341C65847">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>BA9035C4-B4D6-9763-EB71-73EBE6464E55</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBDOBIE" id="B335F765-7734-1AD1-DC6B-D56745D82805">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>3BF23E8C-71B8-208C-E202-97D9E3FC57B6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCB62F49-DB7F-8F0B-1623-9018F7E6222B" name="P_ODVOD_PLATBA_PK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>6AFCFD6B-596A-9217-0CFF-99A3DC76F047</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E5BA9DD-B707-9ECD-489B-0179CBA0B494"/>
+<colUsage columnID="289A4CE3-99D5-D7C8-1EEB-7D0F40F9F661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF906CA4-1EDC-3DD9-131C-D97A59658A70" name="P_ODVOD_PLATBA_P_POISTENIE_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289A4CE3-99D5-D7C8-1EEB-7D0F40F9F661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

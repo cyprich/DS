@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="359EF1B1-032E-AC31-FF09-19818C8CCB3E" name="P_PRISPEVKY">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>7AF19F84-E8D2-62CE-0B8A-49D56A1268CE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POBERATELA" id="07956935-C7C2-CC33-91A1-3DD706C7474D">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>941EC333-9440-653A-F98E-3CE7EE4FB832</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34CF1D54-4745-ED0B-864B-05CFFDFF31E6" referredColumn="E3A03F08-3A81-5BAB-0D9B-BE2310357F7F"/>
+</associations>
+</Column>
+<Column name="OBDOBIE" id="9FE65E61-F4F9-E469-6FE1-41C1AA581B94">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>F2847E0D-8900-7BB9-4E5A-B65EDDFFC352</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TYPU" id="D2FD4F42-A9BC-5371-D860-D1884968F88A">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>0B637DB1-6793-6DA4-420D-4F4CED5481FF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEDY" id="5C0A0FC7-F27F-7C16-CFA1-E5DDDB3E7434">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>8A7E52BA-7320-7A99-1EDA-B76124ACD509</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUMA" id="EFAF8E6E-4A1A-8099-5178-F40D39F9E98F">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>FA36D3A4-7172-2E9F-3055-72FACDD61122</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="suma &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CC2093F-3BD5-D076-6C2F-7EBC09457EFD" name="P_PRISPEVKY_PK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>351D0C73-EBA0-2FD4-D135-4A2CE0074EBC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07956935-C7C2-CC33-91A1-3DD706C7474D"/>
+<colUsage columnID="9FE65E61-F4F9-E469-6FE1-41C1AA581B94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6221964-93D1-EE33-B8EB-3A3ACC601698" name="P_PRISPEVKY_P_POBERATEL_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07956935-C7C2-CC33-91A1-3DD706C7474D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

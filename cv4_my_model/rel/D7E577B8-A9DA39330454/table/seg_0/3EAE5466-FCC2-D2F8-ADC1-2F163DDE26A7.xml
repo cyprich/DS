@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EAE5466-FCC2-D2F8-ADC1-2F163DDE26A7" name="P_TYP_POSTIHNUTIA">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:07:29 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POSTIHNUTIA" id="F5F0DF0C-8269-4A82-F5EB-E54248E3AFD8">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:08 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZOV_POSTIHNUTIA" id="99ED14EC-4B81-3AED-DE0E-98FFE20D59E9">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:30 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F44FC0B5-BC2E-3964-F255-F38D68ADB255" name="P_TYP_POSTIHNUTIA_PK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:08 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5F0DF0C-8269-4A82-F5EB-E54248E3AFD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

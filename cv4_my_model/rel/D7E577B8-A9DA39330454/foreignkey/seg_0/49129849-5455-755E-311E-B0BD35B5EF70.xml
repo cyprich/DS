@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49129849-5455-755E-311E-B0BD35B5EF70" containerWithKeyObject="4EFB17AE-707E-4EDC-758B-2E3495393365" localFKIndex="880EBC48-1EAD-DC0E-C942-BD20A20BFB29" name="P_ZTP_P_OS_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:10:41 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<referredTableLongName>P_OSOBA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF61ECCB-A1EF-CAAB-A50F-B1733AAEFF3D</referredTableID>
+<keyObject>A609C618-331B-B3C2-73D4-FDA15F39E194</keyObject>
+<referredKeyID>A609C618-331B-B3C2-73D4-FDA15F39E194</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ROD_CISLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

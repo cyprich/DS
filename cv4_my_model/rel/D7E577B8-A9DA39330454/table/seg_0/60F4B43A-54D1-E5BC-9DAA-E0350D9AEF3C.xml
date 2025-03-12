@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60F4B43A-54D1-E5BC-9DAA-E0350D9AEF3C" name="P_HISTORIA">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>435E4915-B1AC-5024-1433-02C4126D6BEC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TYPU" id="D2ED04A5-35B6-0F84-0FD3-515CABDC0832">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>01477E41-761E-23A8-70B9-46F761209C7F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC2AE650-FB65-8DAB-7037-AAEF2282DC30" referredColumn="382F4E96-F11C-59EF-07EB-7CFB742329A3"/>
+</associations>
+</Column>
+<Column name="DAT_OD" id="9C6D4F3C-4742-728F-394D-29108BB0C6A8">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>C6C26C68-FD64-2B9A-9223-E4A0DB4F4B21</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_DO" id="C295941E-BF73-61E8-BED9-29A8BE984E58">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>88079E2B-7DA1-60F8-F1D2-7F77DB970C5F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAKL_VYSKA" id="E5ACEAC4-775F-1888-C77F-1E1094809002">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>54B9863E-3B26-6339-906C-A8E030BD2A1F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 21c" definition="zakl_vyska &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ADB4CDC-9C42-26E1-52F4-13C935C15934" name="P_HISTORIA_PK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>B6F3380E-ACB1-6F64-4160-A74E05AE4FB3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2ED04A5-35B6-0F84-0FD3-515CABDC0832"/>
+<colUsage columnID="9C6D4F3C-4742-728F-394D-29108BB0C6A8"/>
+<colUsage columnID="C295941E-BF73-61E8-BED9-29A8BE984E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1C1B36E-F6AD-027C-42B6-DF1ABDF5EED8" name="P_HISTORIA_P_TYP_PRISPEVKU_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2ED04A5-35B6-0F84-0FD3-515CABDC0832"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52D10D20-7D7C-39F1-911D-AD73155A92CA" containerWithKeyObject="4EFB17AE-707E-4EDC-758B-2E3495393365" localFKIndex="9BAA34AB-8EAB-ACE9-E5C6-FBBC37A02997" name="P_ZTP_P_TYP_POSTIHNUTIA_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:13:55 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<referredTableLongName>P_TYP_POSTIHNUTIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3EAE5466-FCC2-D2F8-ADC1-2F163DDE26A7</referredTableID>
+<keyObject>F44FC0B5-BC2E-3964-F255-F38D68ADB255</keyObject>
+<referredKeyID>F44FC0B5-BC2E-3964-F255-F38D68ADB255</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_POSTIHNUTIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

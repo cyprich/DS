@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD668D4-00D1-0751-84BE-27D777B2F49E" containerWithKeyObject="B4F842F4-EDC2-A70D-5C05-29F1320A4D76" localFKIndex="4885859B-FC20-8576-A299-B43CB091F586" name="P_POBERATEL_P_TYP_PRISPEVKU_FK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>42F9F77D-3556-84A1-AFBC-EC61DC22BE5F</importedID>
+<referredTableLongName>P_TYP_PRISPEVKU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9F8A277-0DC4-2213-FFD4-2853F327ACE1</referredTableID>
+<keyObject>847F75AD-8EA9-6EFC-191B-6ED2E8FAEB87</keyObject>
+<referredKeyID>847F75AD-8EA9-6EFC-191B-6ED2E8FAEB87</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TYPU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

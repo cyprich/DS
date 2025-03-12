@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC3532C-757F-57DA-800B-F994FC1310B0" name="P_ZAMESTNANEC">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>2ED2461B-0B81-B211-0165-87B86D798096</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAMESTNAVATELA" id="EDC0C858-1660-D743-B8F5-0821B7765E68">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>0DE0D67C-377B-8828-F7A6-7FFA72F4462E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>81B0F5D5-0DA2-4D70-B2B7-4FD3BD4CE546</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROD_CISLO" id="15864976-5F1D-DA57-D4FD-83DFBF7302D2">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>5515A7A3-B76C-D525-40D8-ABD358CBB028</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>81B0F5D5-0DA2-4D70-B2B7-4FD3BD4CE546</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_OD" id="7AED160A-1C29-2EFF-0047-90787D38D1AA">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>00570BBC-6B97-BC46-5649-F58CEF5703E5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_DO" id="E16F33AE-0FBE-4BA9-9428-E6DC8BC1D963">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>10680571-B7EF-105E-4D1B-82E7631E7B95</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1398F30F-8552-4B08-FB9B-4DD593F1285B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POISTENCA" id="FA506C37-644F-1067-109F-20DE1CACCE6D">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>B95DDB1F-5F48-A6BC-BB7A-D77FFA4B4719</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3F0F619E-C1D1-B97F-D11D-EE228D9E68B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE3D27CC-06C2-AD41-04AC-73F2B3C91A27" referredColumn="13FD06EC-A6C8-72A0-7065-43DB73063855"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="508CD56E-5CA1-ECA2-336C-0334E48E624D" name="P_ZAMESTNANEC_PK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>F0FCE80D-3768-8303-101A-987EC56F51AD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDC0C858-1660-D743-B8F5-0821B7765E68"/>
+<colUsage columnID="15864976-5F1D-DA57-D4FD-83DFBF7302D2"/>
+<colUsage columnID="7AED160A-1C29-2EFF-0047-90787D38D1AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9371C03-4C2B-73EA-D96F-1271B789BE1F" name="P_ZAMESTNANEC_P_POISTENIE_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA506C37-644F-1067-109F-20DE1CACCE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F42E91F-C104-2912-9826-1B963E400B10" containerWithKeyObject="81C267FC-CD83-9B03-90BF-33056E19B8B2" localFKIndex="2428CBDB-D568-0835-516E-F0A272E4EC89" name="P_KRAJ_P_KRAJINA_FK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>201A2C91-BC23-DE35-9A92-C78CB134D5E1</importedID>
+<referredTableLongName>P_KRAJINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5E7E312-CBC9-F40E-72D6-1075209553F9</referredTableID>
+<keyObject>E50228EC-1EC6-0115-E363-18807AEDF95E</keyObject>
+<referredKeyID>E50228EC-1EC6-0115-E363-18807AEDF95E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_KRAJINY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

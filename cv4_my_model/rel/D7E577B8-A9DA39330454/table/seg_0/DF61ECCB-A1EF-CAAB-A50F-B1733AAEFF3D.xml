@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF61ECCB-A1EF-CAAB-A50F-B1733AAEFF3D" name="P_OSOBA">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:41:55 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROD_CISLO" id="70DB19FF-28AA-D18A-CC6D-5A79F3A3652F">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668D22D3-F372-E092-8817-0ED93967BA0C" referredColumn="46E8F2AE-84A0-0A7B-049E-AD2C0EBF02DA"/>
+</associations>
+</Column>
+<Column name="MENO" id="E23C4728-0F26-209E-03B9-D5F40270EE38">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIEZVISKO" id="850546B4-BE60-86A1-090A-094253A81A7F">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PSC" id="10745A24-0DD3-7526-DEE8-18F05BDA9856">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA" id="34493C95-68D7-80E0-42AC-1C54EFD2594D">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A609C618-331B-B3C2-73D4-FDA15F39E194" name="P_OSOBA_PK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:44:17 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70DB19FF-28AA-D18A-CC6D-5A79F3A3652F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F013F29-D022-629F-0408-43ADAA231412" name="P_OS_P_PLAT_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:09:23 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70DB19FF-28AA-D18A-CC6D-5A79F3A3652F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

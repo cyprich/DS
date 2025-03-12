@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EFB17AE-707E-4EDC-758B-2E3495393365" name="P_ZTP">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:00:18 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZTP" id="B97D43DE-4E9A-DDBA-F7B0-C7E7E65F1DC8">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:02:36 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROD_CISLO" id="29462F53-292E-5A02-2380-93706BB7E08E">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:02:36 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49129849-5455-755E-311E-B0BD35B5EF70" referredColumn="70DB19FF-28AA-D18A-CC6D-5A79F3A3652F"/>
+</associations>
+</Column>
+<Column name="DAT_OD" id="49D638A7-D1B8-8813-C18F-1CE37CD3639B">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:04:31 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_DO" id="C9FC15B3-2856-F9C4-D8F4-ECCE37F31B5A">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:04:45 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POSTIHNUTIA" id="8EEF83A6-07CB-8E8D-7849-63D6FC97FD73">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:06:50 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52D10D20-7D7C-39F1-911D-AD73155A92CA" referredColumn="F5F0DF0C-8269-4A82-F5EB-E54248E3AFD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E99DF9B4-9531-3ED6-4C59-43B0DC44EA97" name="P_ZTP_PK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:02:36 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97D43DE-4E9A-DDBA-F7B0-C7E7E65F1DC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="880EBC48-1EAD-DC0E-C942-BD20A20BFB29" name="P_ZTP_P_OS_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:10:41 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29462F53-292E-5A02-2380-93706BB7E08E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BAA34AB-8EAB-ACE9-E5C6-FBBC37A02997" name="P_ZTP_P_TYP_POSTIHNUTIA_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:13:55 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EEF83A6-07CB-8E8D-7849-63D6FC97FD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

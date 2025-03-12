@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="082AE64F-EA07-EA7B-D671-11309FFA1433" containerWithKeyObject="7C31E257-0208-1467-4DFA-91AEAC2DDB9D" localFKIndex="627444B7-7CB5-AB2E-7904-85B503BB9249" name="P_MESTO_P_OKRES_FK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>B783E292-7FC2-9160-44F1-D7DF424232C2</importedID>
+<referredTableLongName>P_OKRES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8281839F-6758-0393-BCD5-897DF45CEB98</referredTableID>
+<keyObject>1174232C-4033-25F9-BF26-6996E51EED1E</keyObject>
+<referredKeyID>1174232C-4033-25F9-BF26-6996E51EED1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OKRESU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

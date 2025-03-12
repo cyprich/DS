@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cv4_my_model" id="B23D3DA4-BE45-BF29-BBDC-D5E765DF5BF6" version="3.5">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:28:45 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B23D3DA4-BE45-BF29-BBDC-D5E765DF5BF6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8289DE4D-BBA5-3B82-DFAE-84E386E9A0BA">
+<designStoragePath>/Cv4_PoistenieModel</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

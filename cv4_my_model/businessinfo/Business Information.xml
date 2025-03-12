@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="34B9BCB3-A133-0F02-3FF9-7197BE6AE078">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:28:46 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

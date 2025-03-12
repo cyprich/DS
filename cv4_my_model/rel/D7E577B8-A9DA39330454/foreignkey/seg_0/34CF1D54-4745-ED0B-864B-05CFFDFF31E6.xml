@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34CF1D54-4745-ED0B-864B-05CFFDFF31E6" containerWithKeyObject="359EF1B1-032E-AC31-FF09-19818C8CCB3E" localFKIndex="E6221964-93D1-EE33-B8EB-3A3ACC601698" name="P_PRISPEVKY_P_POBERATEL_FK">
+<sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:51 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<importedID>5F46E055-BBE0-4344-96E8-86404EE95BB4</importedID>
+<referredTableLongName>P_POBERATEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4F842F4-EDC2-A70D-5C05-29F1320A4D76</referredTableID>
+<keyObject>46429225-1028-14CB-25D2-267D3ABC8756</keyObject>
+<referredKeyID>46429225-1028-14CB-25D2-267D3ABC8756</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_POBERATELA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

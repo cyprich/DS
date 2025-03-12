@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="P_TYP_POSTIHNUTIA" directorySegmentName="seg_0" id="3EAE5466-FCC2-D2F8-ADC1-2F163DDE26A7">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:07:29 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZOV_POSTIHNUTIA" id="99ED14EC-4B81-3AED-DE0E-98FFE20D59E9">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:30 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_POSTIHNUTIA" id="F5F0DF0C-8269-4A82-F5EB-E54248E3AFD8">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:08 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_TYP_POSTIHNUTIA_PK" id="F44FC0B5-BC2E-3964-F255-F38D68ADB255">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:08:08 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

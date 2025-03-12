@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="P_OSOBA" directorySegmentName="seg_0" id="DF61ECCB-A1EF-CAAB-A50F-B1733AAEFF3D">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PSC" id="10745A24-0DD3-7526-DEE8-18F05BDA9856">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULICA" id="34493C95-68D7-80E0-42AC-1C54EFD2594D">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROD_CISLO" id="70DB19FF-28AA-D18A-CC6D-5A79F3A3652F">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRIEZVISKO" id="850546B4-BE60-86A1-090A-094253A81A7F">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENO" id="E23C4728-0F26-209E-03B9-D5F40270EE38">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="P_OS_P_PLAT_FK" id="5F013F29-D022-629F-0408-43ADAA231412">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:09:23 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_OSOBA_PK" id="A609C618-331B-B3C2-73D4-FDA15F39E194">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 14:45:38 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
