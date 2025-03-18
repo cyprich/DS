@@ -40,11 +40,14 @@
 <ownerDesignName>cv4_my_model</ownerDesignName>
 <importedID>A89386B0-FF52-0B5E-8750-548437A4B93B</importedID>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>81B0F5D5-0DA2-4D70-B2B7-4FD3BD4CE546</domain>
+<dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0884AEE-8AD5-74E2-D1E4-526E8CA1DE48" referredColumn="46E8F2AE-84A0-0A7B-049E-AD2C0EBF02DA"/>
+</associations>
 </Column>
 <Column name="OSLOBODENY" id="53859E1A-EC90-4274-8878-558A85AB1059">
 <sourceDDLFile>Cv4_PoistenieModel.ddl</sourceDDLFile>
@@ -96,6 +99,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="13FD06EC-A6C8-72A0-7065-43DB73063855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC1FB51D-33A4-83A3-D25A-BD20971C9206" name="P_POISTENIE_P_PLAT_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:26:58 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD925AD3-7460-026C-AD51-43868EE6EF48"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

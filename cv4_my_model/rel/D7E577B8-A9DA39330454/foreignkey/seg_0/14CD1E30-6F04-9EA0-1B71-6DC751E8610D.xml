@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14CD1E30-6F04-9EA0-1B71-6DC751E8610D" containerWithKeyObject="2BEBFAF0-BC77-9B78-B081-4FFBF3517773" localFKIndex="7E10EC96-86E3-D76B-F652-B269B1828EE7" name="P_ZAM_P_MESTO_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:23:21 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<referredTableLongName>P_MESTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C31E257-0208-1467-4DFA-91AEAC2DDB9D</referredTableID>
+<keyObject>5752B421-7E3D-E158-5A3F-D23B93E0E81F</keyObject>
+<referredKeyID>5752B421-7E3D-E158-5A3F-D23B93E0E81F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PSC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

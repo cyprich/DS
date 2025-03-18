@@ -36,6 +36,11 @@
 <createdTime>2025-03-12 14:45:38 UTC</createdTime>
 <ownerDesignName>cv4_my_model</ownerDesignName>
 </ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="P_ZAM_P_MESTO_FK" id="7E10EC96-86E3-D76B-F652-B269B1828EE7">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:23:21 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_ZAMESTNAVATEL_PK" id="3E16E6F0-D3B6-B8DD-300F-245149D1A58C">

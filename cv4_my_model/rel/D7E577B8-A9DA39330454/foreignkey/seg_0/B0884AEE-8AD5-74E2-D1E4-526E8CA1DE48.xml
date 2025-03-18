@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0884AEE-8AD5-74E2-D1E4-526E8CA1DE48" containerWithKeyObject="1A3216F1-CB49-DE1D-1176-D12F5A279754" localFKIndex="FC1FB51D-33A4-83A3-D25A-BD20971C9206" name="P_POISTENIE_P_PLAT_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:26:58 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<referredTableLongName>P_PLATITEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD4CF6BC-9A5D-C6C2-5473-E43225DE3F61</referredTableID>
+<keyObject>B372984F-883A-ED60-0E65-E07040171E93</keyObject>
+<referredKeyID>B372984F-883A-ED60-0E65-E07040171E93</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PLATITELA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

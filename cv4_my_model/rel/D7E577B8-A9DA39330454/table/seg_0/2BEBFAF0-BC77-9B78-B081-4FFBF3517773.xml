@@ -38,11 +38,15 @@
 <createdTime>2025-03-12 14:38:21 UTC</createdTime>
 <ownerDesignName>cv4_my_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
+<domain>925393B8-08F7-C8DF-7FAD-934A6DAF2DED</domain>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14CD1E30-6F04-9EA0-1B71-6DC751E8610D" referredColumn="BDBBB9AF-815A-0BBE-CB2B-149FEDC735AD"/>
+</associations>
 </Column>
 <Column name="ULICA" id="051F4F18-6B0C-5F2B-ACB3-B3665749B2B6">
 <createdBy>cyprich</createdBy>
@@ -76,6 +80,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="04949F2F-61BB-D3B5-8DAD-C84372927A16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E10EC96-86E3-D76B-F652-B269B1828EE7" name="P_ZAM_P_MESTO_FK">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:23:21 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD51B814-2584-4B95-1C70-53C08FEF4B5F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

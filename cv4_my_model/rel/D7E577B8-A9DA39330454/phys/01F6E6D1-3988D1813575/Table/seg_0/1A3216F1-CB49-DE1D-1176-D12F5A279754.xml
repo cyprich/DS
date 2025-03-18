@@ -40,6 +40,13 @@
 <ownerDesignName>cv4_my_model</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="P_POISTENIE_P_PLAT_FK" id="FC1FB51D-33A4-83A3-D25A-BD20971C9206">
+<createdBy>cyprich</createdBy>
+<createdTime>2025-03-12 15:26:58 UTC</createdTime>
+<ownerDesignName>cv4_my_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_POISTENIE_PK" id="4D342933-0B88-B58F-5A3A-82F8FF8A41B8">
 <createdBy>cyprich</createdBy>
