@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="vyletne_lode" id="1BE97098-533B-CCF0-AE48-703F362DFB7B" mainViewID="C697B8DF-5CCA-DD11-52FD-237E88A1C122">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 18:49:26 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

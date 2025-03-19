@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="702CF74B-0694-0442-76EB-580117950AC1" name="l_porucha">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:10:20 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="17F05073-69B6-EFD0-8148-407F65B5D467">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:11:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lod" id="A22E505C-D394-3EB6-9667-7A981AED86F1">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:18:23 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_prenajmu_od" id="282EBE73-1925-37E4-4895-24C9C43F87F0">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:11:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_prenajmu_do" id="12ECBB83-6842-B6F6-296B-761BBBFEF81D">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:12:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_opravy" id="B4B1A4EE-3F14-BED3-4F0B-32CE084B5466">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:12:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="odhadovana_cena_opravy" id="6505BA2B-454F-8A1F-D7B6-3B1BDC2D37F4">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:12:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E76A2F49-29D2-C281-843D-C98F7CC4C28B" name="l_porucha_PK">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:12:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F05073-69B6-EFD0-8148-407F65B5D467"/>
+<colUsage columnID="A22E505C-D394-3EB6-9667-7A981AED86F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2C6609D-BFA2-125C-2A14-E6930768F35C" name="l_cena">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:06:01 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="plavba" id="36F1F884-5DA4-614C-83A4-D7B92C5C993E">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:06:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="platnost_od" id="29AD6D6F-EFF8-2E9F-CAA1-14D8426B28D7">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:09:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="platnost_do" id="02B5F084-9A0E-C56A-8119-C16A12800757">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:09:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zakladna_cena" id="49CDD669-61E3-E3B5-E9FF-FCC8CE9F286D">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:09:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategoria" id="545EFDF6-7605-C9D3-2F6D-F1A863E99FA0">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:09:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7888780-6A2A-3237-88F2-734298D9189D" name="l_ceny_PK">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:06:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36F1F884-5DA4-614C-83A4-D7B92C5C993E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

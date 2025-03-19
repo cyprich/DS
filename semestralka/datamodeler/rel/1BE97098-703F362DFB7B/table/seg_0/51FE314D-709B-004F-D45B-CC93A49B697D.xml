@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51FE314D-709B-004F-D45B-CC93A49B697D" name="l_plavby">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:02:08 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CF8A78B7-3426-36E4-CFAD-F7B8D5AA7910">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:06:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lod" id="E3AD8F1D-5AEE-CFBD-F48D-B8CCD7CE15D7">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:02:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destinacia" id="89C3ECCA-09D3-AF23-7A31-7C4765122AE1">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:02:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B7A4101-30D6-2D74-1EA1-A7E8366C339F" name="l_plavby_PK">
+<createdBy>cypoo</createdBy>
+<createdTime>2025-03-16 19:02:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3AD8F1D-5AEE-CFBD-F48D-B8CCD7CE15D7"/>
+<colUsage columnID="89C3ECCA-09D3-AF23-7A31-7C4765122AE1"/>
+<colUsage columnID="CF8A78B7-3426-36E4-CFAD-F7B8D5AA7910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
